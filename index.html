@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <nav></nav>
+        <title>Etch-A-Sketch</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div id="page-title">
+                <span>Etch-A-Sketch</span>
+            </div>
+        </div>
+        <div class="flex-c">
+            <div class="flex-r">
+                <div class="flex-r" id="btns-container">
+                    <div class="button" id="grid-btn">
+                        <img
+                            class="image"
+                            src="icons8-grid-50.png"
+                            alt="grid icon"
+                        />
+                    </div>
+                    <div class="button" id="reset-btn">
+                        <img
+                            class="image"
+                            src="icons8-reset-50.png"
+                            alt="reset icon"
+                        />
+                    </div>
+                    <div class="button" id="color-btn">
+                        <img
+                            class="image"
+                            src="icons8-color-50 (rainbow).png"
+                            alt="color icon"
+                        />
+                    </div>
+
+                    <div class="select-color" id="select-color">
+                        <div class="button" id="black-btn">
+                            <img
+                                class="image"
+                                src="icons8-color-30 (black).png"
+                                alt="color black"
+                            />
+                        </div>
+                        <div class="button" id="gray-btn">
+                            <img
+                                class="image"
+                                src="icons8-color-30 (gray).png"
+                                alt="color gray"
+                            />
+                        </div>
+                        <div class="button" id="rainbow">
+                            <img
+                                class="image"
+                                src="icons8-color-30 (rainbow).png"
+                                alt="rainbow"
+                            />
+                        </div>
+                    </div>
+
+                    <div id="color-storage">color storage</div>
+                </div>
+            </div>
+
+            <div class="centered" id="grid-container"></div>
+        </div>
+
+        <script src="etch-a-sketch.js"></script>
+    </body>
+</html>
