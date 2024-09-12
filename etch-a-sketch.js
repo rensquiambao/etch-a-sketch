@@ -112,7 +112,7 @@ document.querySelector("#black-btn").addEventListener("click", function () {
     const colorBtn = document.querySelector("#color-btn");
     const img = colorBtn.querySelector("img");
     img.src =
-        "file:///home/wes/Coding/rens/etch-a-sketch/icons8-color-40 (black).png";
+        "file:///home/wes/Coding/rens/etch-a-sketch/images/icons8-color-40 (black).png";
 });
 document.querySelector("#gray-btn").addEventListener("click", function () {
     colorStorage.textContent = "gray";
@@ -120,7 +120,7 @@ document.querySelector("#gray-btn").addEventListener("click", function () {
     const colorBtn = document.querySelector("#color-btn");
     const img = colorBtn.querySelector("img");
     img.src =
-        "file:///home/wes/Coding/rens/etch-a-sketch/icons8-color-40 (gray).png";
+        "file:///home/wes/Coding/rens/etch-a-sketch/images/icons8-color-40 (gray).png";
 });
 document.querySelector("#rainbow").addEventListener("click", function () {
     colorStorage.textContent = "rainbow";
@@ -129,9 +129,9 @@ document.querySelector("#rainbow").addEventListener("click", function () {
 
 colorBtn.addEventListener("mouseover", function (e) {
     e.target.src =
-        "file:///home/wes/Coding/rens/etch-a-sketch/icons8-color.gif";
+        "file:///home/wes/Coding/rens/etch-a-sketch/images/icons8-color.gif";
 });
 colorBtn.addEventListener("mouseout", function (e) {
     e.target.src =
-        "file:///home/wes/Coding/rens/etch-a-sketch/icons8-color-50 (rainbow).png";
+        "file:///home/wes/Coding/rens/etch-a-sketch/images/icons8-color-50 (rainbow).png";
 });
